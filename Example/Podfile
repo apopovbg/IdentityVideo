@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IdentityVideo_Example' do
+  pod 'IdentityVideo', :path => '../'
+
+  target 'IdentityVideo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
