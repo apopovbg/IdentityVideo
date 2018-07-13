@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IdentityVideo'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'IdentityVideo. full pod'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
         IdentityVideo. full pod library
                        DESC
 
-  s.homepage         = 'https://github.com/apopovbg/IdentityOCR.git'
+  s.homepage         = 'https://github.com/apopovbg/IdentityVideo.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrew Popov' => 'apopov@brightgrove.com' }
-  s.source           = { :git => 'https://github.com/apopovbg/IdentityOCR.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/apopovbg/IdentityVideo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'IdentityVideo/Classes/**/*'
   
